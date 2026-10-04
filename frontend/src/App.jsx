@@ -5,7 +5,7 @@ import {LayoutDashboard, Activity, FlaskConical, ShieldCheck, FileText, Settings
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Tooltip, Filler);
 
-const API="http://localhost:8000";
+const API="/api";
 const nav=[
   ["Dashboard",LayoutDashboard],["Signals",Activity],["Backtesting",FlaskConical],
   ["Risk Management",ShieldCheck],["Reports",FileText],["Strategies",Settings]
